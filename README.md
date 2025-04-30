@@ -1,4 +1,4 @@
-# Setting-up test enviroments: 
+# Setting-up test environments: 
 
 ## Setting-up the back-end: 
 
