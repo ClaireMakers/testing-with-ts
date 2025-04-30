@@ -45,7 +45,7 @@ export default defineConfig({
 });
 ```
 
-3. Set-up the mongodD_helper so that each of your tests first connect to the database before running: 
+3. Create a `mongoDb_helper.ts` file in your `/tests` folder and add the following to it: 
 
 ```
 import mongoose from "mongoose";
