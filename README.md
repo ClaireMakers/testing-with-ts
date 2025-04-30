@@ -26,7 +26,7 @@ This will set-up two distinct databases. Then, you will need to set up your test
     npm install @types/dotenv supertest vitest
 ```
 
-2. Create a vitest.config.ts and paste the following: 
+2. Create a `vitest.config.ts` file at the same folder level than your `package.json` and paste the following: 
 
 ```
 import dotenv from "dotenv";
@@ -94,7 +94,7 @@ export default defineConfig({
 });
 ```
 
-Then, create a test folder and create a file `setupTests.ts` with the following inside it: 
+Then, create a tests folder and create a file `setupTests.ts` with the following inside it: 
 ```
 import '@testing-library/jest-dom'
 ```
